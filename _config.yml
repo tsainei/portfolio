@@ -96,13 +96,13 @@ defaults:
 encoding: utf-8 # Make sure the encoding is right
 lang: en-GB # Set the site language
 title: "TSAI NEI YUAN's porfolio" # Site name or title, also used in jekyll-seo-tag
-logo: "/assets/logo.png" # Site logo, also used in jekyll-seo-tag
+logo: "/assets/logos/logo.png" # Site logo, also used in jekyll-seo-tag
 description: "This is TSAI NEI's website for all her coding works." # Site description and default description, also used in jekyll-seo-tag
 url: "https://portfolio.tsainei.com" # Site url, also used in jekyll-seo-tag
 baseurl: ""
 repo: "https://github.com/tsainei/portfolio"
 email: "me@tsainei.com"
-# disqus: "alembic-1" # Blog post comments, uncomment the option and set the site ID from your Disqus account
+# disqus: "TsaiNei " # Blog post comments, uncomment the option and set the site ID from your Disqus account
 # google_analytics: ''
 # google_analytics_anonymize_ip: ''
 # service_worker: false # Will turn off the service worker if set to false
@@ -131,7 +131,7 @@ navigation_header:
   url: /categories/
 - title: Search
   url: /search/
-- title: Fork Ni
+- title: Fork TSAI NEI
   url: https://github.com/tsainei/portfolio
 
 navigation_footer:
