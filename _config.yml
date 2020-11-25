@@ -41,7 +41,7 @@ paginate: 2 # jekyll-paginate > items per page
 paginate_path: blog/page:num # jekyll-paginate > blog page
 jekyll-mentions: https://twitter.com # jekyll-mentions > service used when @replying
 twitter:
-  username: Tsai Nei Yuan # jekyll-seo-tag > Owners twitter username
+  username: tsaineiyuan # jekyll-seo-tag > Owners twitter username
 author: Tsai Nei Yuan # jekyll-seo-tag > default author
 social: # jekyll-seo-tag > social overrides
   name: Tsai Nei Yuan # jekyll-seo-tag > real name
@@ -95,8 +95,8 @@ defaults:
 # 7. Site settings
 encoding: utf-8 # Make sure the encoding is right
 lang: en-GB # Set the site language
-title: "Alembic" # Site name or title, also used in jekyll-seo-tag
-logo: "/assets/logos/logo.svg" # Site logo, also used in jekyll-seo-tag
+title: "TSAI NEI YUAN's porfolio" # Site name or title, also used in jekyll-seo-tag
+logo: "/assets/logo.png" # Site logo, also used in jekyll-seo-tag
 description: "This is TSAI NEI's website for all her coding works." # Site description and default description, also used in jekyll-seo-tag
 url: "https://portfolio.tsainei.com" # Site url, also used in jekyll-seo-tag
 baseurl: ""
