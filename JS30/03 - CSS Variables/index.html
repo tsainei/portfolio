@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Scoped CSS Variables and JS</title>
+</head>
+<body>
+
+
+  <h2>Update CSS Variables with <span class="h1">JS</span></h2>
+
+  <div class="controls">
+    <label for="spacing">Spacing:</label>
+    <input id="spacing" type="range" name="spacing" min="10" max="200" value="10" data-sizing="px">
+
+    <label for="opacity">Opacity:</label>
+    <input id="opacity" type="range" name="opacity" min="0" max="100" value="87" data-percentage="%">
+
+    <label for="base">Base Color</label>
+    <input id="base" type="color" name="base" value="#ffc600">
+  </div>
+
+  <img src="https://images.unsplash.com/photo-1575362456145-6a6ce7e43baa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80">
+
+  <style>
+    :root {
+      --base:blue;
+      --spacing: 10px;
+      --opacity: 87%;
+    }
+
+    img {
+      padding: var(--spacing);
+      background: var(--base);
+      filter: opacity(var(--opacity));
+    }
+
+    .h1 {
+      color: var(--base);
+    }
+    
+    /*
+      misc styles, nothing to do with CSS variables
+    */
+
+    body {
+      text-align: center;
+      background: #193549;
+      color: white;
+      font-family: 'helvetica neue', sans-serif;
+      font-weight: 100;
+      font-size: 50px;
+    }
+
+    .controls {
+      margin-bottom: 50px;
+    }
+
+    input {
+      width: 100px;
+    }
+  </style>
+
+  <script>
+
+     const inputs = document.querySelectorAll('.controls input');
+
+     function handleUpdate() {
+       const suffix = this.dataset.sizing || this.dataset.percentage ||'';
+       document.documentElement.style.setProperty(`--${this.name}`, this.value + suffix)
+     }
+
+     inputs.forEach(input => input.addEventListener('change', handleUpdate));
+     inputs.forEach(input => input.addEventListener('mousemove', handleUpdate));
+  
+  </script>
+
+
+</body>
+</html>
