@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Key Detection</title>
+  <script type="text/javascript" src="https://www.cornify.com/js/cornify.js"></script>
+</head>
+<body>
+
+
+  <h1 style="color: blueviolet">Guess the word.</h1>
+  <h3 style="color: rgb(43, 92, 226)">Tips: all caps and it's a computer language</h3>
+  
+<script>
+
+  const arr =[];
+  const secretCode = 'JAVASCRIPT';
+ 
+  window.addEventListener('keyup', (e) => {
+    arr.push(e.key);
+    let shorten = arr.slice(-secretCode, arr.length);
+    if (shorten.join('').includes(secretCode))
+    cornify_add();
+  });
+
+</script>
+
+
+</body>
+</html>
