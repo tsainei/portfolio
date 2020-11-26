@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mouse Shadow</title>
+</head>
+<body>
+
+  
+  <div class="hola">
+    <h1 contenteditable>🦜¡Hola!🐕‍</h1>
+  </div>
+
+  <style>
+  html {
+    background-color: black;
+    color:black;
+    font-family: sans-serif;
+  }
+
+  body {
+    margin: 0;
+  }
+
+  .hola {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(208, 218, 223);
+  }
+
+  h1 {
+    text-shadow: 10px 10px 0 rgb(20, 95, 114);
+    font-size: 100px;
+  }
+  </style>
+<script>
+
+  const hola = document.querySelector(".hola");
+  const text = hola.querySelector("h1");
+
+  hola.addEventListener("mousemove", moveShadow);
+
+  const walk = 100;
+
+  function moveShadow(e) {
+    const { offsetWidth: holaWidth, offsetHeight: holaHeight } = hola;
+    let { offsetX: offsetXAfterAdjust, offsetY: offsetYAfterAdjust } = e;
+
+    if(this !== e.target) {
+      offsetXAfterAdjust = offsetXAfterAdjust + e.target.offsetLeft;
+      offsetYAfterAdjust = offsetYAfterAdjust + e.target.offsetTop;
+    }
+
+    const xWalk = Math.round(offsetXAfterAdjust / holaWidth * walk) - walk / 2;
+    const yWalk = Math.round(offsetYAfterAdjust / holaHeight * walk) - walk / 2;
+
+    text.style.textShadow = `${xWalk}px ${yWalk}px 0 rgba(250, 0, 255, 0.5),
+    ${xWalk}px ${-yWalk}px 0 rgba(0, 145, 155, 0.5)
+      `;
+  }
+
+</script>
+
+
+</body>
+</html>
