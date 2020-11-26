@@ -1,1 +1,1 @@
-# This is a JS and CSS clock
+# This is CSS Variables.
