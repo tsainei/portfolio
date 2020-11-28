@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Move the frog by Ni</title>
+</head>
+<body>
+
+    <img class= "frog" src="frog.png" alt="green frog" width="200">
+
+  <style>
+
+    .active {
+        cursor: grabbing;
+        cursor: -webkit-grabbing;
+        opacity: 0.8;
+    }
+
+    .frog {
+        position: relative;
+    }
+
+    html, body{
+    position: relative;
+    background-color: lightskyblue;
+    }
+
+  </style>
+<script>
+//choose the frog
+const frog = document.querySelector('.frog');
+
+//mousedown, mouseup, mouseleave, mousemove
+
+let isDown;
+let startX;
+let startY;
+let frogPosition;
+
+frog.addEventListener('mousedown', function(e){
+    e.preventDefault();
+    frog.classList.add('active');
+    isDown = true;
+    frogPosition = frog.getBoundingClientRect();
+    startX = e.clientX;
+    startY = e.clientY;
+})
+
+frog.addEventListener('mouseup', function(e){
+    frog.classList.remove('active');
+    isDown = false;
+})
+
+frog.addEventListener('mouseleave', function(e){
+    frog.classList.remove('active');
+    isDown = false;
+})
+
+frog.addEventListener('mousemove', function(e){
+    if (!isDown) {
+        return;
+    }
+    e.preventDefault();
+    let deltaX = startX - e.clientX;
+    let deltaY = startY - e.clientY;
+    frog.style.left = `${frogPosition.left - deltaX}px`;
+    frog.style.top = `${frogPosition.top - deltaY}px`;
+})
+ 
+  
+</script>
+</body>
+</html>

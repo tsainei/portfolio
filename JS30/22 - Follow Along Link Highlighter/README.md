@@ -1,0 +1,1 @@
+# This is FOllow Along Link Heighlighter.
