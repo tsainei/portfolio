@@ -2,7 +2,7 @@
 title: 100DaysOfCode - Day 1 Change Background Color
 categories:
 - 100DaysOfCode
-feature_image: "https://picsum.photos/2560/600?image=872"
+feature_image: Day 1 Change Background Color.jpeg
 layout: post
 ---
 
