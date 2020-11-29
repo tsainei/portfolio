@@ -12,7 +12,7 @@ I'll start with Change Background Color.
 
 > This is my project: [Day1_change_background_color](https://portfolio.tsainei.com/100DaysOfCode/Day1_change_background_color/) and my [code](https://github.com/tsainei/portfolio/tree/main/100DaysOfCode/Day1_change_background_color).
 
-![Day 1 Change Background Color](https://raw.githubusercontent.com/tsainei/portfolio/main/100DaysOfCode/Day1_change_background_color/Day%201%20Change%20Background%20Color.jpeg)
+![Day 1 Change Background Color.jpeg]({{site.baseurl}}/_posts/Day 1 Change Background Color.jpeg)
 
 At first, I use `queeySelector` to select the body and button tags, which I'd alter. 
 
