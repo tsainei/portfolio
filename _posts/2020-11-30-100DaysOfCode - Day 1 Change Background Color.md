@@ -2,7 +2,7 @@
 title: 100DaysOfCode - Day 1 Change Background Color
 categories:
 - 100DaysOfCode
-feature_image: Day 1 Change Background Color.jpeg
+feature_image: "https://picsum.photos/2560/600?image=872"
 layout: post
 ---
 
@@ -11,6 +11,8 @@ Today is the first day of my challenge. Yay!
 I'll start with Change Background Color. 
 
 > This is my project: [Day1_change_background_color](https://portfolio.tsainei.com/100DaysOfCode/Day1_change_background_color/) and my [code](https://github.com/tsainei/portfolio/tree/main/100DaysOfCode/Day1_change_background_color).
+
+![Day 1 Change Background Color](https://github.com/tsainei/portfolio/blob/main/100DaysOfCode/Day1_change_background_color/Day%201%20Change%20Background%20Color.jpeg)
 
 At first, I use `queeySelector` to select the body and button tags, which I'd alter. 
 
