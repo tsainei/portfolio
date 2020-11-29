@@ -6,7 +6,13 @@ feature_image: "https://picsum.photos/2560/600?image=872"
 layout: post
 ---
 
-Today is the first day of my challenge. Yay! I'll start with Change Background Color. At first, I use `queeySelector` to select the body and button tags, which I'd alter. 
+Today is the first day of my challenge. Yay! 
+
+I'll start with Change Background Color. 
+
+<This is my project: []()
+
+At first, I use `queeySelector` to select the body and button tags, which I'd alter. 
 
 ```
 const body = document.querySelector('body');
@@ -50,9 +56,9 @@ function changeColor() {
 
 It works!
 
-I somehow become more greedy. I think the 6 colors are boring, so I find this ( bobspace/css_colors.js)[https://gist.github.com/bobspace/2712980] to add some spice to my array. Now I have lots of colors for the background and the same color can't orrur one after the other.
+I somehow become more greedy. I think the 6 colors are boring, so I find this [bobspace/css_colors.js](https://gist.github.com/bobspace/2712980) to add some spice to my array. Now I have lots of colors for the background and the same color can't orrur one after the other.
 
-I'm sick of my boring button, too. Hence, I add the Hover Glow Effect button from (30 cool CSS Buttons – with animations!)[https://webdeasy.de/en/top-css-buttons-en/] to my css.
+I'm sick of my boring button, too. Hence, I add the Hover Glow Effect button from [30 cool CSS Buttons – with animations!](https://webdeasy.de/en/top-css-buttons-en/) to my css.
 
 Yay! My project is finished! This is my final javascript code:
 
