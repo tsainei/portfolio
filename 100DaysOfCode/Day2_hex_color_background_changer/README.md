@@ -1,2 +1,2 @@
-# Change_Background_Color
-Simple JavaScript Project that changes background each time a button is pressed.
+# hex_color_background_changer
+
