@@ -12,8 +12,6 @@ I'll start with Change Background Color.
 
 > This is my project: [Day1_change_background_color](https://portfolio.tsainei.com/100DaysOfCode/Day1_change_background_color/) and my [code](https://github.com/tsainei/portfolio/tree/main/100DaysOfCode/Day1_change_background_color).
 
-![Day 1 Change Background Color.jpeg]({{site.baseurl}}/100DaysOfCode/Day1_change_background_color/Day 1 Change Background Color.jpeg)
-
 At first, I use `queeySelector` to select the body and button tags, which I'd alter. 
 
 ```
@@ -27,13 +25,13 @@ Later, I add an `addEventListener` on button, so that I can listen to the click 
 button.addEventListener('click', changeColor);
 ```
 
-Once I have them set, I create an array `colors` which contains the color of rainbow.
+Once I have them set, I create an array `colors` which contains the colors of rainbow.
 
 ```
 const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'purple'];
 ```
 
-I write down the function changeColor to randomly change the page bavkground color
+I write down the function changeColor to randomly change the page background color.
 
 ```
 function changeColor() {
@@ -42,7 +40,7 @@ function changeColor() {
 }
 ```
 
-Well, it runs well! However, I notice somtimes I get the same color after several clicks. I don't like to see the same color again and again, so add an variable thisIndex and an if statement to make sure I don't get the same color.
+Well, it runs well! However, I notice somtimes I get the same color after several clicks. I don't like to see the same color again and again, so I add an variable thisIndex and an if statement to make sure I don't get the same color.
 
 ```
 function changeColor() {
@@ -58,7 +56,7 @@ function changeColor() {
 
 It works!
 
-I somehow become more greedy. I think the 6 colors are boring, so I find this [bobspace/css_colors.js](https://gist.github.com/bobspace/2712980) to add some spice to my array. Now I have lots of colors for the background and the same color can't orrur one after the other.
+I somehow become more greedy. I think the 6 colors are boring, so I find this [bobspace/css_colors.js](https://gist.github.com/bobspace/2712980) to add some spice to my array. Now I have lots of colors for the background and the same color can't orrur one click after the other.
 
 I'm sick of my boring button, too. Hence, I add the Hover Glow Effect button from [30 cool CSS Buttons – with animations!](https://webdeasy.de/en/top-css-buttons-en/) to my css.
 
