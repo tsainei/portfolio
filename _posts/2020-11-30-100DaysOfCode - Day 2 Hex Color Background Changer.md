@@ -8,7 +8,7 @@ layout: post
 
 In this project, I have to get random hex value created from an array of all the possible different hex values, loop through them, and concatenate 6 different values to a String that begun with the # character.
 
-> This is my project: [Day2_hex-color_background_changer](https://portfolio.tsainei.com/100DaysOfCode/Day2_hex-color_background_changer/) and my [code](https://github.com/tsainei/portfolio/tree/main/100DaysOfCode/Day2_hex-color_background_changer).
+> This is my project: [Day2_hex_color_background_changer](https://portfolio.tsainei.com/100DaysOfCode/Day2_hex_color_background_changer/) and my [code](https://github.com/tsainei/portfolio/tree/main/100DaysOfCode/Day2_hex_color_background_changer).
 
 
 Well, at first I misundertand the explnation and make this:
@@ -63,7 +63,7 @@ function changeColor() {
 }
 ```
 
-My whole javasctript code, it's based on the former project.
+My javasctript code. It's based on the former project.
 
 ```
 const body = document.querySelector('body');
