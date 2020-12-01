@@ -11,7 +11,7 @@ In this project, I have to get random hex value created from an array of all the
 > This is my project: [Day2_hex_color_background_changer](https://portfolio.tsainei.com/100DaysOfCode/Day2_hex_color_background_changer/) and my [code](https://github.com/tsainei/portfolio/tree/main/100DaysOfCode/Day2_hex_color_background_changer).
 
 
-Well, at first I misundertand the explnation and make this:
+Well, at first I misundertand the explanation and make this:
 
 ```
 const body = document.querySelector('body');
