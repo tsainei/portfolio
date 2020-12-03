@@ -70,7 +70,7 @@ prevBtn.addEventListener('click', () => dealCount(-1));
 nextBtn.addEventListener('click', () => dealCount(+1));
 ```
 
-After learning so many things, I start to complicate things. However, I should always remember to try to find easy ways to solve problems.
+After learning so many things, I start to complicate my code. However, I should always try to find easy ways to solve problems not the opposite.
 
 
 
