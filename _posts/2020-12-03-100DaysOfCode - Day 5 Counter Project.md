@@ -10,7 +10,7 @@ The weather is as good as yesterday, so I decide to do the laundry. While waitin
 
 > This is my project: [Day5_counter_project](https://portfolio.tsainei.com/100DaysOfCode/Day5_counter_project/) and my [code](https://github.com/tsainei/portfolio/tree/main/100DaysOfCode/Day5_counter_project).
 
-At first, I find it easy, but somehow my code is not so elegent. I deal with the two buttons separately. There must be a way for me to deal with them together.
+At first, I find it easy, but somehow my code is not so elegent, since I deal with the two buttons separately. There must be a way for me to deal with them together.
 
 ```
 const prevBtn = document.querySelector('.prevBtn');
@@ -46,7 +46,7 @@ prevBtn.addEventListener('click', countMinus);
 nextBtn.addEventListener('click', countPlus);
 ```
 
-I tend to complicate the things. After struggling for a while, my husband points out I can use the parameter to alter the count. Voilà! It's that simple!
+I tend to complicate things. After struggling for a while, my husband points out I can use the parameter to alter the count. Voilà! It's that simple!
 
 ```
 const prevBtn = document.querySelector('.prevBtn');
