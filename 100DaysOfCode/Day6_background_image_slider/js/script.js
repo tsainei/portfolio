@@ -1,4 +1,3 @@
-
 /*pics I download from unsplah
 const pictures = [
   "dog-0",

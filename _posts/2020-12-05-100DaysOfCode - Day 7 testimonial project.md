@@ -26,9 +26,9 @@ After I finish my code, I notice it didn't work. Turns out I put the function's 
 
 ```
 //it is wrong to do like this
-nextBtn.addEventListener('click', reviewDisplay(+1));
+nextBtn.addEventListener('click', displayReview(+1));
 //it is right to do so
-nextBtn.addEventListener('click', () => reviewDisplay(+1));
+nextBtn.addEventListener('click', () => displayReview(+1));
 ```
 
 My final code is like this. I'm happy with the result.
@@ -50,7 +50,7 @@ const customers = [
   ['Wanda', 'Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.']
 ]
 
-function reviewDisplay(delta) {
+function displayReview(delta) {
     index += delta;
     if(index < 0) {
         index = customers.length-1;
@@ -62,7 +62,7 @@ function reviewDisplay(delta) {
     customerText.textContent = customers[index][1];
 }
 
-nextBtn.addEventListener('click', () => reviewDisplay(+1));
-prevBtn.addEventListener('click', () => reviewDisplay(-1));
+nextBtn.addEventListener('click', () => displayReview(+1));
+prevBtn.addEventListener('click', () => displayReview(-1));
 ```
 
