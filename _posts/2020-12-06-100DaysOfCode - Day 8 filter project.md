@@ -15,7 +15,7 @@ While I'm doing the project, I notice that if I press the button to filter the i
 
 ```
 const buttons = document.querySelectorAll('.btn');
-const searchBox = document.querySelector('#search-itm');
+const searchBox = document.querySelector('#search-item');
 const items = document.querySelectorAll('.store-item');
 //deal with the buttons which filter the items
 buttons.forEach((button) => {
@@ -38,14 +38,14 @@ buttons.forEach((button) => {
     })
 })
 //filter the item by using the searchbox
-function filterItem() {
+function filterItem(e) {
     const searchFilter = e.target.value.toLowerCase().trim();
     
     items.forEach((item) => {
         if(item.textContent.includes(searchFilter)){
             item.style.display = 'block';
         } else {
-            item.style.dispaly = 'none';
+            item.style.display = 'none';
         }
     })
 }
