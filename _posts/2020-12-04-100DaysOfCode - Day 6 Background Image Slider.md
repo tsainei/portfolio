@@ -1,5 +1,5 @@
 ---
-title: 100DaysOfCode - Day 6 background image slider
+title: 100DaysOfCode - Day 6 Background Image Slider
 categories:
 - 100DaysOfCode
 feature_image: "https://picsum.photos/2560/600?image=872"

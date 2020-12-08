@@ -1,5 +1,5 @@
 ---
-title: 100DaysOfCode - Day 8 filter project
+title: 100DaysOfCode - Day 8 Filter Project
 
 categories:
 - 100DaysOfCode

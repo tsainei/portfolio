@@ -1,5 +1,5 @@
 ---
-title: 100DaysOfCode - Day 7 testimonial project
+title: 100DaysOfCode - Day 7 Testimonial Project
 categories:
 - 100DaysOfCode
 feature_image: "https://picsum.photos/2560/600?image=872"
