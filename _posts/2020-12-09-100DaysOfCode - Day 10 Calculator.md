@@ -8,7 +8,7 @@ layout: post
 
 Today I had a job interview, I spent the whole day preparing for it. I did my best and it went very well. I still don't have time to make up the project I missed. 
 
-This is my first to make a calculator it is easier than I expected.
+This is my first to make a calculator. It is easier than I expected.
 
 > This is my project: [Day10_Calculator](https://portfolio.tsainei.com/100DaysOfCode/Day10_Calculator/) and my [code](https://github.com/tsainei/portfolio/tree/main/100DaysOfCode/Day10_Calculator)
 
