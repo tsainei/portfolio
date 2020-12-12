@@ -14,7 +14,7 @@ In Taiwan, some places include the tips in bills, so we don't need to worry abou
 
 Therefore, I put an option `No Tip` in my project. Now it's more useful in my case.
 
-> This is my project: [Day11_Tip_Form](https://portfolio.tsainei.com/100DaysOfCode/Day11_Tip_Form/) and my [code](https://github.com/tsainei/portfolio/tree/main/100DaysOfCode/Day11_Tip_Form)
+> This is my project: [Day11_tip_form](https://portfolio.tsainei.com/100DaysOfCode/Day11_tip_form/) and my [code](https://github.com/tsainei/portfolio/tree/main/100DaysOfCode/Day11_tip_form)
 
 I set input min and max limit to ensure the people number and bill amount will not be less than 0, like this:
 

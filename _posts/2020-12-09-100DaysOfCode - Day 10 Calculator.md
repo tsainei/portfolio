@@ -10,7 +10,7 @@ Today I had a job interview, I spent the whole day preparing for it. I did my be
 
 This is my first to make a calculator. It is easier than I expected.
 
-> This is my project: [Day10_Calculator](https://portfolio.tsainei.com/100DaysOfCode/Day10_Calculator/) and my [code](https://github.com/tsainei/portfolio/tree/main/100DaysOfCode/Day10_Calculator)
+> This is my project: [Day10_calculator](https://portfolio.tsainei.com/100DaysOfCode/Day10_calculator/) and my [code](https://github.com/tsainei/portfolio/tree/main/100DaysOfCode/Day10_calculator)
 
 I get to deal with HTMLElement.dataset again to get the value of the buttons. I learn that I can display the value in the box by using the querySelector to select the input DOM and give it value. 
 
