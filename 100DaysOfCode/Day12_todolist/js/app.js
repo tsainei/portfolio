@@ -8,9 +8,13 @@ let items = JSON.parse(localStorage.getItem('items')) || [];
 
 function addItem (e) {
   e.preventDefault();
-  const item = input.value;
+  const text = input.value;
+  const item = {
+    text: text, //text
+    done: false
+  };
 
-  if (item.length === 0) {
+  if (text.length === 0) {
     feedback.innerHTML = 'Please enter value';
     feedback.classList.add('showItem', 'alert-danger');
     setTimeout(() =>
@@ -27,8 +31,8 @@ function addItem (e) {
 function populateList (todos = [], todolist) {
   todolist.innerHTML = todos.map((todo, i) => {
     return `
-        <div class="item my-3">
-        <h5 class="item-name text-capitalize">${todo}</h5>
+        <div class="item my-3" data-index="${i}">
+        <h5 class="item-name text-capitalize ${todo.done ? 'completed' : ''}">${todo.text}</h5>
         <div class="item-icons">
         <a href="#" class="complete-item mx-2 item-icon">
         <i class="far fa-check-circle"></i></a>
@@ -47,26 +51,22 @@ function populateList (todos = [], todolist) {
 }
 
 function completeItem () {
-  // let item = this;
-  // while (!item.classList.contains('item')) {
-  //   item = item.parentNode;
-  // }
   const item = this.closest('.item');
   const h5 = item.querySelector('h5');
+  const index = item.dataset.index;
   if (h5.classList.contains('completed')) {
     h5.classList.remove('completed');
+    items[index].done = !items[index].done;
   } else {
     h5.classList.add('completed');
+    items[index].done = !items[index].done;
   }
+  localStorage.setItem('items', JSON.stringify(items));  
 }
 
 function deleteItem () {
-  let item = this;
-  while (!item.classList.contains('item')) {
-    item = item.parentNode;
-  }
-  item.remove();
-  const index = items.indexOf(item);
+  const item = this.closest('.item');
+  const index = item.dataset.index;
   items.splice(index, 1);
   populateList(items, itemList);
   localStorage.setItem('items', JSON.stringify(items));
@@ -76,11 +76,7 @@ function editItem () {
   const item = this.closest('.item');
   const h5 = item.querySelector('h5');
   input.value = h5.innerHTML;
-  item.remove();
-  const index = items.indexOf(item);
-  items.splice(index, 1);
-  populateList(items, itemList);
-  localStorage.setItem('items', JSON.stringify(items));
+  deleteItem.call(this);
 }
 
 function clearItem () {
