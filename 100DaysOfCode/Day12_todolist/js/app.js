@@ -10,7 +10,7 @@ function addItem (e) {
   e.preventDefault();
   const text = input.value;
   const item = {
-    text: text, //text
+    text: text, //text 
     done: false
   };
 
@@ -61,7 +61,7 @@ function completeItem () {
     h5.classList.add('completed');
     items[index].done = !items[index].done;
   }
-  localStorage.setItem('items', JSON.stringify(items));  
+  localStorage.setItem('items', JSON.stringify(items));
 }
 
 function deleteItem () {

@@ -73,11 +73,11 @@ function completeItem () {
   const index = item.dataset.index;
   if (h5.classList.contains('completed')) {
     h5.classList.remove('completed');
-    items[index].done = !items[index].done;
   } else {
     h5.classList.add('completed');
-    items[index].done = !items[index].done;
+    
   }
+  items[index].done = !items[index].done;
   localStorage.setItem('items', JSON.stringify(items));  
 }
 
