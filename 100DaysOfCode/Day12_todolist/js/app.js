@@ -10,16 +10,15 @@ function addItem (e) {
   e.preventDefault();
   const text = input.value;
   const item = {
-    text: text, //text 
+    text: text, // text
     done: false
   };
-
   if (text.length === 0) {
     feedback.innerHTML = 'Please enter value';
     feedback.classList.add('showItem', 'alert-danger');
     setTimeout(() =>
       feedback.classList.remove('showItem', 'alert-danger')
-    , 3000)
+    , 3000);
   } else {
     items.push(item);
     populateList(items, itemList);
