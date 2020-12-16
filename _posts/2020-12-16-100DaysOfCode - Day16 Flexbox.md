@@ -16,7 +16,7 @@ I have basic CSS skills, but I'm lack of practice. This project help me to impro
 
 ### I get to learn CSS units: px, em and rem.
 
-I find these 2 blogs helpful: [CSS units for font-size: px, em and rem](https://medium.com/code-better/css-units-for-font-size-px-em-rem-79f7e592bb97) and [一次搞懂 CSS 字體單位：px、em、rem 和 % (in beautiful Taiwanese Mandarin)](https://www.oxxostudio.tw/articles/201809/css-font-size.html).
+I find these 2 blogs helpful: [CSS units for font-size: px, em and rem](https://medium.com/code-better/css-units-for-font-size-px-em-rem-79f7e592bb97) and [一次搞懂 CSS 字體單位：px、em、rem 和 %](https://www.oxxostudio.tw/articles/201809/css-font-size.html)(in beautiful Taiwanese Mandarin).
 
 Also, I learn about CSS transitions and transforms from this blog. [CSS Transitions and Transforms for Beginners](https://thoughtbot.com/blog/transitions-and-transforms)
 
