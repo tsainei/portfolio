@@ -1,5 +1,5 @@
 ---
-title: 100DaysOfCode - Day16 Flexbox
+title: 100DaysOfCode - Day 16 Flexbox
 categories:
 - 100DaysOfCode
 - CSS_flexbox
