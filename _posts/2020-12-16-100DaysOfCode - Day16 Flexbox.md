@@ -14,9 +14,13 @@ I have basic CSS skills, but I'm lack of practice. This project help me to impro
 
 > This is my project: [Day16_flexbox](https://portfolio.tsainei.com/100DaysOfCode/Day16_flexbox/) and my [code](https://github.com/tsainei/portfolio/tree/main/100DaysOfCode/Day16_flexbox)
 
-I get to learn CSS units: `px`, `em` and `rem`. I found these 2 blogs quite helpful: [CSS units for font-size: px | em | rem](https://medium.com/code-better/css-units-for-font-size-px-em-rem-79f7e592bb97) and [一次搞懂 CSS 字體單位：px、em、rem 和 %(In beautiful Taiwanese Mandarin)](https://www.oxxostudio.tw/articles/201809/css-font-size.html).
+### I get to learn CSS units: `px`, `em` and `rem`.
+
+I find these 2 blogs helpful: [CSS units for font-size: px | em | rem](https://medium.com/code-better/css-units-for-font-size-px-em-rem-79f7e592bb97) and [一次搞懂 CSS 字體單位：px、em、rem 和 % (in beautiful Taiwanese Mandarin)](https://www.oxxostudio.tw/articles/201809/css-font-size.html).
 
 Also, I learn about CSS transitions and transforms from this blog. [CSS Transitions and Transforms for Beginners](https://thoughtbot.com/blog/transitions-and-transforms)
+
+### Below is my quick note:
 
 >Transforms move or change the appearance of an element, while transitions make the element smoothly and gradually change from one state to another.
 
