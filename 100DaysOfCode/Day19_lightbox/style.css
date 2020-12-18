@@ -3,11 +3,12 @@ body {
   background-color: midnightblue;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(3, 200px);
+.flex {
+  display: flex;
+  flex-flow: column wrap;
   justify-content: center;
-  align-content: start;
+  align-content: center;
+  align-items: center;
   grid-gap: 10px;
   height: 100vh;
 }
@@ -24,6 +25,7 @@ h1 {
   width: 200px;
   height: 200px;
   cursor: pointer;
+
 }
 
 #lightbox {
