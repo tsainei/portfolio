@@ -1,11 +1,14 @@
 body {
   margin: 0;
   background-color: midnightblue;
+  color: aliceblue;
+  font-family: sans-serif;
 }
 
 .grid {
+  margin-top: 5%;
   display: grid;
-  grid-template-columns: repeat(3, 200px);
+  grid-template-columns: repeat(5, 200px);
   justify-content: center;
   align-content: center;
   grid-gap: 10px;
@@ -15,9 +18,27 @@ body {
 h1 {
   text-align: center;
   color: cornsilk;
-  font-family: fantasy;
   margin-top: 5%;
+  font-family: fantasy;
   text-transform: uppercase;
+}
+
+h3 {
+  color: lightblue;
+  text-align: center;
+}
+
+.center{
+ justify-content: center;
+ align-items: center;
+ align-content: center;
+}
+
+p {
+ font-size: large;
+ max-width: 800px;
+ margin: 0 auto;
+
 }
 
 .grid img {
