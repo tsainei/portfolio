@@ -9,7 +9,7 @@ layout: post
 
 Today I watch the videos of The Complete Web Developer in 2021: Zero to Mastery and I find this small project interesting. It's as easy as the former ones I made.
 
-> This is my project: [Day23_Backgroundgenerator](https://portfolio.tsainei.com/100DaysOfCode/Day23_Backgroundgenerator/) and my [code](https://github.com/tsainei/portfolio/tree/main/100DaysOfCode/Day23_Backgroundgenerator).
+> This is my project: [Day23_backgroundgenerator](https://portfolio.tsainei.com/100DaysOfCode/Day23_backgroundgenerator/) and my [code](https://github.com/tsainei/portfolio/tree/main/100DaysOfCode/Day23_backgroundgenerator).
 
 ```
 const css = document.querySelector('h3');
