@@ -2,7 +2,6 @@
 title: 100DaysOfCode - Day 23 Backgroundgenerator
 categories:
 - 100DaysOfCode
-- CSS_flexbox
 feature_image: "https://picsum.photos/2560/600?image=872"
 layout: post
 ---
