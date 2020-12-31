@@ -16,4 +16,4 @@ This year has been tough for me. I was trapped in a motorhome from March to May,
 
 I truly hope next year would be better and everyone healthy.
 
-> This is my project: [Day24_doggy_friends](https://portfolio.tsainei.com/100DaysOfCode/Day24_doggy_friends/) and my [code](https://github.com/tsainei/portfolio/tree/main/100DaysOfCode/Day24_doggy_friends).
+> This is my project: [Day24_doggy_friends](https://portfolio.tsainei.com/100DaysOfCode/Day24_doggy_friends/build) and my [code](https://github.com/tsainei/portfolio/tree/main/100DaysOfCode/Day24_doggy_friends).
