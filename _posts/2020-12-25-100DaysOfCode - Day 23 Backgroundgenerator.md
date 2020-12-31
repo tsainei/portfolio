@@ -10,6 +10,7 @@ Today I watch the videos of The Complete Web Developer in 2021: Zero to Mastery 
 
 > This is my project: [Day23_backgroundgenerator](https://portfolio.tsainei.com/100DaysOfCode/Day23_backgroundgenerator/) and my [code](https://github.com/tsainei/portfolio/tree/main/100DaysOfCode/Day23_backgroundgenerator).
 
+
 ```
 const css = document.querySelector('h3');
 const color1 = document.querySelector('.color1');
@@ -24,27 +25,23 @@ function generateColors () {
 
 const hexValues = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 'A', 'B', 'C', 'D', 'E', 'F'];
 
-let thisColor1;
-let thisColor2;
-let arr1 = [];
-let arr2 = [];
+function getColor () {
+  const arr = [];
+  for (let i = 0; i < 6; i++) {
+    const index = parseInt(Math.random() * hexValues.length);
+    arr.push(hexValues[index]);
+  }
+  return arr.join('');
+}
 
 function generateRandomColors () {
-  for (let i = 0; i < 6; i++) {
-    const index1 = parseInt(Math.random() * hexValues.length);
-    arr1.push(hexValues[index1]);
-    const index2 = parseInt(Math.random() * hexValues.length);
-    arr2.push(hexValues[index2]);
-  }
-  thisColor1 = arr1.join('');
-  thisColor2 = arr2.join('');
+  const thisColor1 = getColor();
+  const thisColor2 = getColor();
   if (thisColor1 === thisColor2) {
     generateRandomColors();
   } else {
     body.style.background = `linear-gradient(to right, #${thisColor1}, #${thisColor2})`;
     css.textContent = `${body.style.background}`;
-    arr1 = [];
-    arr2 = [];
   }
 }
 
