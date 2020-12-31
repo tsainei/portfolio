@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.ae5681ea.chunk.css",
-    "main.js": "/static/js/main.aafb9472.chunk.js",
-    "main.js.map": "/static/js/main.aafb9472.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.650964ce.js",
-    "runtime-main.js.map": "/static/js/runtime-main.650964ce.js.map",
-    "static/css/2.31461e4f.chunk.css": "/static/css/2.31461e4f.chunk.css",
-    "static/js/2.0c8c7250.chunk.js": "/static/js/2.0c8c7250.chunk.js",
-    "static/js/2.0c8c7250.chunk.js.map": "/static/js/2.0c8c7250.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/2.31461e4f.chunk.css.map": "/static/css/2.31461e4f.chunk.css.map",
-    "static/css/main.ae5681ea.chunk.css.map": "/static/css/main.ae5681ea.chunk.css.map",
-    "static/js/2.0c8c7250.chunk.js.LICENSE.txt": "/static/js/2.0c8c7250.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/static/media/DoggyDogWorld-K7BaA.46322eb2.woff"
+    "main.css": "/100DaysOfCode/Day24_doggy_friends/static/css/main.79c5652d.chunk.css",
+    "main.js": "/100DaysOfCode/Day24_doggy_friends/static/js/main.c52a590a.chunk.js",
+    "main.js.map": "/100DaysOfCode/Day24_doggy_friends/static/js/main.c52a590a.chunk.js.map",
+    "runtime-main.js": "/100DaysOfCode/Day24_doggy_friends/static/js/runtime-main.3f57befd.js",
+    "runtime-main.js.map": "/100DaysOfCode/Day24_doggy_friends/static/js/runtime-main.3f57befd.js.map",
+    "static/css/2.31461e4f.chunk.css": "/100DaysOfCode/Day24_doggy_friends/static/css/2.31461e4f.chunk.css",
+    "static/js/2.0c8c7250.chunk.js": "/100DaysOfCode/Day24_doggy_friends/static/js/2.0c8c7250.chunk.js",
+    "static/js/2.0c8c7250.chunk.js.map": "/100DaysOfCode/Day24_doggy_friends/static/js/2.0c8c7250.chunk.js.map",
+    "index.html": "/100DaysOfCode/Day24_doggy_friends/index.html",
+    "static/css/2.31461e4f.chunk.css.map": "/100DaysOfCode/Day24_doggy_friends/static/css/2.31461e4f.chunk.css.map",
+    "static/css/main.79c5652d.chunk.css.map": "/100DaysOfCode/Day24_doggy_friends/static/css/main.79c5652d.chunk.css.map",
+    "static/js/2.0c8c7250.chunk.js.LICENSE.txt": "/100DaysOfCode/Day24_doggy_friends/static/js/2.0c8c7250.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/100DaysOfCode/Day24_doggy_friends/static/media/DoggyDogWorld-K7BaA.46322eb2.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.650964ce.js",
+    "static/js/runtime-main.3f57befd.js",
     "static/css/2.31461e4f.chunk.css",
     "static/js/2.0c8c7250.chunk.js",
-    "static/css/main.ae5681ea.chunk.css",
-    "static/js/main.aafb9472.chunk.js"
+    "static/css/main.79c5652d.chunk.css",
+    "static/js/main.c52a590a.chunk.js"
   ]
 }
