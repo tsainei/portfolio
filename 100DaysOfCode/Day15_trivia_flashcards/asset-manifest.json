@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.3a266678.chunk.css",
-    "main.js": "/static/js/main.a95948a9.chunk.js",
-    "main.js.map": "/static/js/main.a95948a9.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.bdc03c13.js",
-    "runtime-main.js.map": "/static/js/runtime-main.bdc03c13.js.map",
-    "static/js/2.f2c27f39.chunk.js": "/static/js/2.f2c27f39.chunk.js",
-    "static/js/2.f2c27f39.chunk.js.map": "/static/js/2.f2c27f39.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.3a266678.chunk.css.map": "/static/css/main.3a266678.chunk.css.map",
-    "static/js/2.f2c27f39.chunk.js.LICENSE.txt": "/static/js/2.f2c27f39.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/static/media/LinBiolinum_RB.7d779153.woff"
+    "main.css": "/100DaysOfCode/Day15_trivia_flashcards/static/css/main.a12a05e5.chunk.css",
+    "main.js": "/100DaysOfCode/Day15_trivia_flashcards/static/js/main.a95948a9.chunk.js",
+    "main.js.map": "/100DaysOfCode/Day15_trivia_flashcards/static/js/main.a95948a9.chunk.js.map",
+    "runtime-main.js": "/100DaysOfCode/Day15_trivia_flashcards/static/js/runtime-main.bdf4139f.js",
+    "runtime-main.js.map": "/100DaysOfCode/Day15_trivia_flashcards/static/js/runtime-main.bdf4139f.js.map",
+    "static/js/2.f2c27f39.chunk.js": "/100DaysOfCode/Day15_trivia_flashcards/static/js/2.f2c27f39.chunk.js",
+    "static/js/2.f2c27f39.chunk.js.map": "/100DaysOfCode/Day15_trivia_flashcards/static/js/2.f2c27f39.chunk.js.map",
+    "index.html": "/100DaysOfCode/Day15_trivia_flashcards/index.html",
+    "static/css/main.a12a05e5.chunk.css.map": "/100DaysOfCode/Day15_trivia_flashcards/static/css/main.a12a05e5.chunk.css.map",
+    "static/js/2.f2c27f39.chunk.js.LICENSE.txt": "/100DaysOfCode/Day15_trivia_flashcards/static/js/2.f2c27f39.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/100DaysOfCode/Day15_trivia_flashcards/static/media/LinBiolinum_RB.7d779153.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.bdc03c13.js",
+    "static/js/runtime-main.bdf4139f.js",
     "static/js/2.f2c27f39.chunk.js",
-    "static/css/main.3a266678.chunk.css",
+    "static/css/main.a12a05e5.chunk.css",
     "static/js/main.a95948a9.chunk.js"
   ]
 }
