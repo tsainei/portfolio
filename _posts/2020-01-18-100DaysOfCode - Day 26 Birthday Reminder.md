@@ -2,6 +2,7 @@
 title: 100DaysOfCode - Day 26 Birthday Reminder
 categories:
   - 100DaysOfCode
+  - React
 feature_image: 'https://picsum.photos/2560/600?image=872'
 layout: post
 ---
