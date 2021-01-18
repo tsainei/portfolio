@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/100DaysOfCode/Day26_birthday_reminder/static/css/main.4f64ed23.chunk.css",
+    "main.js": "/100DaysOfCode/Day26_birthday_reminder/static/js/main.1f0a6cd4.chunk.js",
+    "main.js.map": "/100DaysOfCode/Day26_birthday_reminder/static/js/main.1f0a6cd4.chunk.js.map",
+    "runtime-main.js": "/100DaysOfCode/Day26_birthday_reminder/static/js/runtime-main.0eeadfbe.js",
+    "runtime-main.js.map": "/100DaysOfCode/Day26_birthday_reminder/static/js/runtime-main.0eeadfbe.js.map",
+    "static/js/2.1f771bf1.chunk.js": "/100DaysOfCode/Day26_birthday_reminder/static/js/2.1f771bf1.chunk.js",
+    "static/js/2.1f771bf1.chunk.js.map": "/100DaysOfCode/Day26_birthday_reminder/static/js/2.1f771bf1.chunk.js.map",
+    "index.html": "/100DaysOfCode/Day26_birthday_reminder/index.html",
+    "precache-manifest.336cf0c8ff5cacd6ac0e407bbb28ad67.js": "/100DaysOfCode/Day26_birthday_reminder/precache-manifest.336cf0c8ff5cacd6ac0e407bbb28ad67.js",
+    "service-worker.js": "/100DaysOfCode/Day26_birthday_reminder/service-worker.js",
+    "static/css/main.4f64ed23.chunk.css.map": "/100DaysOfCode/Day26_birthday_reminder/static/css/main.4f64ed23.chunk.css.map",
+    "static/js/2.1f771bf1.chunk.js.LICENSE.txt": "/100DaysOfCode/Day26_birthday_reminder/static/js/2.1f771bf1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0eeadfbe.js",
+    "static/js/2.1f771bf1.chunk.js",
+    "static/css/main.4f64ed23.chunk.css",
+    "static/js/main.1f0a6cd4.chunk.js"
+  ]
+}
